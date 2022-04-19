@@ -5,6 +5,7 @@ import org.springframework.stereotype.Repository;
 
 import in.ashokit.entiry.Contact;
 @Repository
-public interface ContactRepository extends JpaRepository<Contact, Integer>{
+
+public interface ContactRepository extends JpaRepository<Contact, Integer> {
 
 }
